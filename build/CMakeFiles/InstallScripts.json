@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/egor/Desktop/Peoject_Huesos/build/cmake_install.cmake",
+		"/Users/egor/Desktop/Peoject_Huesos/build/external/glfw/cmake_install.cmake",
+		"/Users/egor/Desktop/Peoject_Huesos/build/external/glfw/src/cmake_install.cmake",
+		"/Users/egor/Desktop/Peoject_Huesos/build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

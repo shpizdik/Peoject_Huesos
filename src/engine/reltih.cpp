@@ -1,5 +1,5 @@
-#include </Users/egor/Desktop/Peoject_Huesos/external/glad/glad.h>
-#include </Users/egor/Desktop/Peoject_Huesos/external/glfw/glfw3.h>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include <iostream>
 
 const unsigned int SCR_WIDTH = 1920;
@@ -7,7 +7,7 @@ const unsigned int SCR_HEIGHT = 1080;
  
 
 int main(){
-	glwInit();
+	glfwInit();
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
@@ -23,7 +23,7 @@ int main(){
 
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)){
 		std::cout << "no glad initialization this time u basterd" << std::endl;
-		return -1
+		return -1;
 	}
 
 	glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
