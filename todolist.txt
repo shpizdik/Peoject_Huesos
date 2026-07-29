@@ -1,1 +1,0 @@
-making my own 3d engine failed, gotta integrate some other engine into the project, something like godot, torque3d or sth else
